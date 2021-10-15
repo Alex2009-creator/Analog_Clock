@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+}
+
+main {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(255, 234, 0,0.9), rgb(255,124,0,0.7), rgb(42, 10, 89, 0.3));
+    border-radius: 250px;
+}
+
+#clock_face {
+    width: 400px;
+    height: 400px;
+    background: url('../images/time01.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hour_hand {
+    width: 140px;
+    height: 8px;
+    margin-left: 140px;
+    position: absolute;
+    margin-bottom: 0px;
+    background-color: black;
+    transform-origin: left center;
+}
+
+#minute_hand {
+    width: 6px;
+    height: 160px;
+    margin-bottom: 160px;
+    position: absolute;
+    background-color: black;
+    transform-origin: center 160px;
+}
+
+#second_hand {
+    width: 4px;
+    height: 180px;
+    margin-bottom: 180px;
+    margin-left: 0px;
+    position: absolute;
+    background-color: rgb(250, 10, 10);
+    transform-origin: 2px 180px;
+}
+
+#set_time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+#input_hours, #input_minute{
+    background: linear-gradient(rgb(255,124,0, 0.7), rgb(42, 10, 89, 0.5));
+    height: 30px;
+    font-size: 1.1rem;
+    color: white;
+}
+#btn_time{
+    background-color: rgb(42, 10, 89, 0.3);
+    color: white;
+    font-size: 1.2rem;
+    height: 36px;
+}
+
+footer {
+    width: 600px;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
