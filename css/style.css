@@ -5,14 +5,14 @@ body{
 }
 
 main {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin: 50px auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background: radial-gradient(rgb(255, 234, 0,0.9), rgb(255,124,0,0.7), rgb(42, 10, 89, 0.3));
-    border-radius: 250px;
+    border-radius: 225px;
 }
 
 #clock_face {
@@ -71,6 +71,10 @@ main {
     color: white;
     font-size: 1.2rem;
     height: 36px;
+}
+
+#btn_time:hover{
+    cursor: pointer;
 }
 
 footer {
